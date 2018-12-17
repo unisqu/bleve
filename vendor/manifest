@@ -2,6 +2,14 @@
 	"version": 0,
 	"dependencies": [
 		{
+			"importpath": "github.com/RoaringBitmap/roaring",
+			"repository": "https://github.com/RoaringBitmap/roaring",
+			"vcs": "",
+			"revision": "01d244c43a7e8d1191a4f369f5908ea9eb9bc9ac",
+			"branch": "master",
+			"notests": true
+		},
+		{
 			"importpath": "github.com/blevesearch/go-porterstemmer",
 			"repository": "https://github.com/blevesearch/go-porterstemmer",
 			"vcs": "",
@@ -42,6 +50,14 @@
 			"notests": true
 		},
 		{
+			"importpath": "github.com/couchbase/vellum",
+			"repository": "https://github.com/couchbase/vellum",
+			"vcs": "git",
+			"revision": "f377ee3282b954c46915d89482bf93288ee7dd12",
+			"branch": "master",
+			"notests": true
+		},
+		{
 			"importpath": "github.com/golang/protobuf/proto",
 			"repository": "https://github.com/golang/protobuf",
 			"vcs": "",
@@ -59,6 +75,15 @@
 			"notests": true
 		},
 		{
+			"importpath": "github.com/gomodule/redigo/redis",
+			"repository": "https://github.com/gomodule/redigo",
+			"vcs": "git",
+			"revision": "02dc2736dbc3a4a56907b0d5a9fead2f71b499db",
+			"branch": "master",
+			"path": "/redis",
+			"notests": true
+		},
+		{
 			"importpath": "github.com/leemcloughlin/gofarmhash",
 			"repository": "https://github.com/leemcloughlin/gofarmhash",
 			"vcs": "git",
@@ -71,14 +96,6 @@
 			"repository": "https://github.com/rcrowley/go-metrics",
 			"vcs": "",
 			"revision": "dee209f2455f101a5e4e593dea94872d2c62d85d",
-			"branch": "master",
-			"notests": true
-		},
-		{
-			"importpath": "github.com/RoaringBitmap/roaring",
-			"repository": "https://github.com/RoaringBitmap/roaring",
-			"vcs": "",
-			"revision": "01d244c43a7e8d1191a4f369f5908ea9eb9bc9ac",
 			"branch": "master",
 			"notests": true
 		},
@@ -131,14 +148,6 @@
 			"revision": "5ee49cfe751141f8017047bab800d1f528ee3be1",
 			"branch": "master",
 			"path": "/unicode/norm",
-			"notests": true
-		},
-		{
-			"importpath": "github.com/couchbase/vellum",
-			"repository": "https://github.com/couchbase/vellum",
-			"vcs": "git",
-			"revision": "f377ee3282b954c46915d89482bf93288ee7dd12",
-			"branch": "master",
 			"notests": true
 		}
 	]
