@@ -17,7 +17,19 @@ type Reader struct {
 func (r Reader) Get(key []byte) ([]byte, error) {
 
 	// TODO Implement retrieving a single key
+//	c, _ := redis.Dial("tcp","127.0.0.1:5679")
+// defer c.Close()
 
+b, err := redis.String(r.store.conn.Do("GET",string(key)))
+if err != nil  {
+	return nil, nil
+}
+return []byte(b), err
+
+	//is this correct? the problem is I missed the part where redis connection value is happening.
+
+//where do i put the 127.0.0.1:5679?
+	
 	return nil, fmt.Errorf("Not implemented")
 }
 
